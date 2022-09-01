@@ -1,0 +1,14 @@
+# Visual Studio cache/options directory
+.vs/
+*.user
+*.sdf
+*.ini
+lib/
+bin/
+obj/
+ipch/
+Debug/
+Release/
+x86/
+x64/
+Win32/

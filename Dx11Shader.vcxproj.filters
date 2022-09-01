@@ -1,0 +1,505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{fc2145bf-60aa-4a11-9efc-ab14dda982d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\3Dsample">
+      <UniqueIdentifier>{c6dc284b-05fc-42ac-8867-c719ee0b4b9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\2Dsample">
+      <UniqueIdentifier>{ca475377-3cfc-4803-b630-31af0c6b29b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{a025baeb-137f-4404-be61-27c7249c1c9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\OBJModel">
+      <UniqueIdentifier>{519f0d14-47a7-4f53-8e40-071dda783604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\3DNoLightObj">
+      <UniqueIdentifier>{23a41db8-ee03-4f41-a9e7-ed4870770a06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\GaussianFilter">
+      <UniqueIdentifier>{6bc7ea26-1bb6-4b9e-858b-7b89a5a23cce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\LightFunction">
+      <UniqueIdentifier>{f7f49290-8874-472d-afb4-c3ad5658565d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\hdr">
+      <UniqueIdentifier>{d6a27d6b-faca-4424-b58d-473c06e165f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\phongDepth">
+      <UniqueIdentifier>{250f2d0b-1337-46a5-bca9-40eaa3c91803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\DOF">
+      <UniqueIdentifier>{8852cd1b-b7d1-4949-b92b-a4175ffbdeee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Shadow">
+      <UniqueIdentifier>{3c3c7f05-b977-45b3-9ac4-188e25d25925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\flat">
+      <UniqueIdentifier>{55aa852a-9bc2-4676-a1ee-5bf33b37f958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\fur">
+      <UniqueIdentifier>{9d33e284-077e-472e-8b95-ee65b9f446c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\ToonShader">
+      <UniqueIdentifier>{4d7286f7-7917-4799-9915-f7d8124124c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Destraction">
+      <UniqueIdentifier>{196e8282-ad5a-475d-885b-3cc78e2a9291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\toGbuffer">
+      <UniqueIdentifier>{30c48201-3f6d-40dc-a1b0-85aa12234358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\toGbuffer_normalMap">
+      <UniqueIdentifier>{f4899359-91bf-422e-a27d-5a224100dd8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\deferredLight">
+      <UniqueIdentifier>{9101cb48-963d-4304-bea4-0ddec0932703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\PointSprite">
+      <UniqueIdentifier>{0d8a42c8-cf4c-4d50-b5aa-2b391fd7012c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\basicPointSprite">
+      <UniqueIdentifier>{db330908-17c8-473b-ae39-bce215d2ad78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\deferredPointSpotLightShadow">
+      <UniqueIdentifier>{fe014563-3369-4838-97f0-14e99086cd12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DxSystem.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="WICTextureLoader.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeMesh.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereMesh.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="PlainMesh.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleShadow.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="imGui\imgui.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="imGui\imgui_demo.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="imGui\imgui_draw.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="imGui\imgui_impl_dx11.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="imGui\imgui_impl_win32.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="imGui\imgui_widgets.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Sampler.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderEx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="key_input.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMesh.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTest0XX.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTestVSM.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTestMRT2.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTestMRT.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTestDeferred.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTestBloom.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTestDOF.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTestGaussianBlur.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTestToonAndDestruction.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometricParticles.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTestShadow.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometricParticlesEx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicParticleSystem.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTestBasicPointSprite.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTestDeferredAll.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTestPointSprite.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTestFlatAndFur.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DxSystem.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="WICTextureLoader.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeMesh.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereMesh.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PlainMesh.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleShadow.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imconfig.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imgui.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imgui_impl_dx11.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imgui_impl_win32.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imgui_internal.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imstb_rectpack.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imstb_textedit.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imstb_truetype.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Sampler.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderEx.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="key_input.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMesh.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometricParticles.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometricParticlesEx.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicParticleSystem.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\sprite_ps.hlsl">
+      <Filter>Shaders\2Dsample</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\sprite_vs.hlsl">
+      <Filter>Shaders\2Dsample</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\gaussianFilter_ps.hlsl">
+      <Filter>Shaders\GaussianFilter</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\gaussianFilter_vs.hlsl">
+      <Filter>Shaders\GaussianFilter</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\OBJModel_vs.hlsl">
+      <Filter>Shaders\OBJModel</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\OBJModel_ps.hlsl">
+      <Filter>Shaders\OBJModel</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\3DNoLightObj_ps.hlsl">
+      <Filter>Shaders\3DNoLightObj</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\3DNoLightObj_vs.hlsl">
+      <Filter>Shaders\3DNoLightObj</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\3DObj_ps.hlsl">
+      <Filter>Shaders\3Dsample</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\3DObj_vs.hlsl">
+      <Filter>Shaders\3Dsample</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\phongDepth_vs.hlsl">
+      <Filter>Shaders\phongDepth</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\phongDepth_ps.hlsl">
+      <Filter>Shaders\phongDepth</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\DOF_vs.hlsl">
+      <Filter>Shaders\DOF</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\DOF_ps.hlsl">
+      <Filter>Shaders\DOF</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\gaussianblur_vs.hlsl">
+      <Filter>Shaders\GaussianFilter</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\gaussianblur_ps.hlsl">
+      <Filter>Shaders\GaussianFilter</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\flatShader_vs.hlsl">
+      <Filter>Shaders\flat</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\flatShader_ps.hlsl">
+      <Filter>Shaders\flat</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\flatShader_gs.hlsl">
+      <Filter>Shaders\flat</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\furShader_gs.hlsl">
+      <Filter>Shaders\fur</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\furShader_ps.hlsl">
+      <Filter>Shaders\fur</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\furShader_vs.hlsl">
+      <Filter>Shaders\fur</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ToonRendering_vs.hlsl">
+      <Filter>Shaders\ToonShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ToonRendering_ps.hlsl">
+      <Filter>Shaders\ToonShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ToonRendering_gs.hlsl">
+      <Filter>Shaders\ToonShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Destraction_ps.hlsl">
+      <Filter>Shaders\Destraction</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Destraction_vs.hlsl">
+      <Filter>Shaders\Destraction</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Destraction_gs.hlsl">
+      <Filter>Shaders\Destraction</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\toGbuffer_ps.hlsl">
+      <Filter>Shaders\toGbuffer</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\toGbuffer_vs.hlsl">
+      <Filter>Shaders\toGbuffer</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\toGbuffer_normalMap_ps.hlsl">
+      <Filter>Shaders\toGbuffer_normalMap</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\toGbuffer_normalMap_vs.hlsl">
+      <Filter>Shaders\toGbuffer_normalMap</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\hdr_vs.hlsl">
+      <Filter>Shaders\hdr</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\hdr_ps.hlsl">
+      <Filter>Shaders\hdr</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\deferredLight_vs.hlsl">
+      <Filter>Shaders\deferredLight</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\deferredLight_ps.hlsl">
+      <Filter>Shaders\deferredLight</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PointSprite_ps.hlsl">
+      <Filter>Shaders\PointSprite</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PointSprite_vs.hlsl">
+      <Filter>Shaders\PointSprite</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PointSprite_gs.hlsl">
+      <Filter>Shaders\PointSprite</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\basicPointSprite_vs.hlsl">
+      <Filter>Shaders\basicPointSprite</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\basicPointSprite_ps.hlsl">
+      <Filter>Shaders\basicPointSprite</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\deferredPointSpotLightShadow_vs.hlsl">
+      <Filter>Shaders\deferredPointSpotLightShadow</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\deferredPointSpotLightShadow_ps.hlsl">
+      <Filter>Shaders\deferredPointSpotLightShadow</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imGui\imgui.ini">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Shaders\sprite.hlsli">
+      <Filter>Shaders\2Dsample</Filter>
+    </None>
+    <None Include="Shaders\gaussianFilter.hlsli">
+      <Filter>Shaders\GaussianFilter</Filter>
+    </None>
+    <None Include="Shaders\OBJModel.hlsli">
+      <Filter>Shaders\OBJModel</Filter>
+    </None>
+    <None Include="Shaders\3DNoLightObj.hlsli">
+      <Filter>Shaders\3DNoLightObj</Filter>
+    </None>
+    <None Include="Shaders\3DObj.hlsli">
+      <Filter>Shaders\3Dsample</Filter>
+    </None>
+    <None Include="Shaders\Func.hlsli">
+      <Filter>Shaders\LightFunction</Filter>
+    </None>
+    <None Include="Shaders\PointLight.hlsli">
+      <Filter>Shaders\LightFunction</Filter>
+    </None>
+    <None Include="Shaders\SpotLight.hlsli">
+      <Filter>Shaders\LightFunction</Filter>
+    </None>
+    <None Include="Shaders\ShadowFunc.hlsli">
+      <Filter>Shaders\LightFunction</Filter>
+    </None>
+    <None Include="Shaders\phongDepth.hlsli">
+      <Filter>Shaders\phongDepth</Filter>
+    </None>
+    <None Include="Shaders\DOF.hlsli">
+      <Filter>Shaders\DOF</Filter>
+    </None>
+    <None Include="Shaders\gaussianblur.hlsli">
+      <Filter>Shaders\GaussianFilter</Filter>
+    </None>
+    <None Include="Shaders\flatShader.hlsli">
+      <Filter>Shaders\flat</Filter>
+    </None>
+    <None Include="Shaders\furShader.hlsli">
+      <Filter>Shaders\fur</Filter>
+    </None>
+    <None Include="Shaders\ToonRendering.hlsli">
+      <Filter>Shaders\ToonShader</Filter>
+    </None>
+    <None Include="Shaders\Destraction.hlsli">
+      <Filter>Shaders\Destraction</Filter>
+    </None>
+    <None Include="Shaders\toGbuffer.hlsli">
+      <Filter>Shaders\toGbuffer</Filter>
+    </None>
+    <None Include="Shaders\toGbuffer_normalMap.hlsli">
+      <Filter>Shaders\toGbuffer_normalMap</Filter>
+    </None>
+    <None Include="Shaders\hdr.hlsli">
+      <Filter>Shaders\hdr</Filter>
+    </None>
+    <None Include="Shaders\deferredLight.hlsli">
+      <Filter>Shaders\deferredLight</Filter>
+    </None>
+    <None Include="Shaders\PointSprite.hlsli">
+      <Filter>Shaders\PointSprite</Filter>
+    </None>
+    <None Include="Shaders\basicPointSprite.hlsli">
+      <Filter>Shaders\basicPointSprite</Filter>
+    </None>
+    <None Include="Shaders\deferredPointSpotLightShadow.hlsli">
+      <Filter>Shaders\deferredPointSpotLightShadow</Filter>
+    </None>
+  </ItemGroup>
+</Project>

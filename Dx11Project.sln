@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dx11Project", "Dx11Shader.vcxproj", "{C0396A07-9F7E-45B6-ADA1-8EE29C12280B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x86 = Debug|x86
+		Release|Win32 = Release|Win32
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0396A07-9F7E-45B6-ADA1-8EE29C12280B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C0396A07-9F7E-45B6-ADA1-8EE29C12280B}.Debug|Win32.Build.0 = Debug|Win32
+		{C0396A07-9F7E-45B6-ADA1-8EE29C12280B}.Debug|x86.ActiveCfg = Debug|Win32
+		{C0396A07-9F7E-45B6-ADA1-8EE29C12280B}.Debug|x86.Build.0 = Debug|Win32
+		{C0396A07-9F7E-45B6-ADA1-8EE29C12280B}.Release|Win32.ActiveCfg = Release|Win32
+		{C0396A07-9F7E-45B6-ADA1-8EE29C12280B}.Release|Win32.Build.0 = Release|Win32
+		{C0396A07-9F7E-45B6-ADA1-8EE29C12280B}.Release|x86.ActiveCfg = Release|Win32
+		{C0396A07-9F7E-45B6-ADA1-8EE29C12280B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E72CFD45-FBB8-4B3F-96C5-EE4EB6CEA370}
+	EndGlobalSection
+EndGlobal
